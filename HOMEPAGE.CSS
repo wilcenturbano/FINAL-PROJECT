@@ -1,0 +1,155 @@
+ body{
+	height:100;
+	margin:0;
+	background-color:black;
+	}
+
+		.Logo{
+		float:left;
+		width:5%;
+		padding: 9x;
+		margin-left:20em;
+		margin-right:7em;
+		margin-top: 15px;
+		border-radius:100px;
+	}
+
+	.header{
+	background-color:black;
+	position:fixed;
+	width:100%;
+
+	
+	}
+
+	
+	
+	
+	
+
+	
+	
+	}
+		.Journey{
+		
+		
+		text-align:left;
+		margin-left: 5em;
+		font-family: 'Hind Madurai', sans-serif;
+		font-size:10em;
+		letter-spacing:2.5px;
+		word-spacing:1.8px;
+		text-shadow: 3px 1px 2px #3498DB ;
+		margin-top:2px;
+		
+	
+	}
+
+		.BGJourney{
+
+		background-image: url('BG.jpg');
+		background-repeat: no-repeat;
+		background-attachment: static;
+		background-size: 100% 200%;
+		opacity: 100%;
+		font-weight:bold;
+		
+	}
+
+	
+	h1{
+		font-family: 'Nunito', sans-serif;
+		color:white;
+		font-size:5em;
+		letter-spacing:0.5;
+		text-shadow: 3px 1.5px 3px black;
+		
+	}
+
+	
+	
+
+	.HeaderBG{
+			background-image: url('Header.png');
+			background-repeat: no-repeat;
+			background-attachment: static;
+			background-size: 100% 100%;
+			opacity: 100%;
+			font-weight:bold;
+			color:white;
+			border-top: 7px solid #A51D1D;
+			border-bottom: 10px solid #A51D1D;
+			
+	}
+
+	.Breathe{
+			float:right;
+			width: 500px;
+			margin-right: 200px;
+			margin-top: 300px;	
+			border-radius:100px;
+
+		}
+	
+	.Mirror{
+			float:right;
+			width: 500px;
+			margin-right: 90px;	
+			margin-top: 300px;
+			border-radius:100px;
+
+			
+
+		}
+			
+	
+		.b{
+			
+			color:white;
+			font-family: Arial, "Sans Serif";
+			text-decoration:none;
+			font-size: 30px;
+			text-transform: small-caps;
+			padding: .50em 0.50em;
+			margin-right: 25px;
+
+
+	
+			
+			
+		
+		
+		}
+		a.b:hover{
+			background-color:#b3b3b3;
+			
+		}
+		a.b:focus{
+			background-color:#b3b3b3;
+			boarder: 2px double #B0FC38;
+		}
+		a.b:active{
+			background-color:black;
+			color:white;
+		}
+	
+		.d{
+		float:right;
+		width:28%;
+		height:60%;
+		padding: 90px;	
+		margin-right:70px;	
+		}
+		
+		.e{
+		font-family:arial;
+		color:white;
+		font-size:1.8em;
+		}
+	
+		
+		
+		
+		
+	
+	

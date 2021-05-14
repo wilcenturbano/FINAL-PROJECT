@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Contact us</title>
+	<style type="text/css">
+		table{
+		border:5px solid #34495E  ;
+		border-collapse:collapse;
+		margin:10px auto;
+		width:70%;
+		background-color:#EBEDEF ;
+	
+		}
+	
+		
+			.header{
+		background-color:black;
+	
+		position:fixed;
+		width:100%;
+		}
+			
+		.Logo{
+		float:left;
+		width:5%;
+		padding: 9x;
+		margin-left:20em;
+		margin-right:7em;
+		margin-top: 15px;
+		border-radius:100px;
+	}			
+		.c{
+			color:white;
+			font-family: Arial, "Sans Serif";
+			text-decoration:none;
+			font-size: 30px;
+			text-transform: small-caps;
+			padding: .50em 0.50em;
+			margin-right: 25px;		
+		}
+		a.c:hover{
+			background-color:#b3b3b3;
+			
+		}
+		a.c:focus{
+			background-color:#b3b3b3;
+			boarder: 2px double #B0FC38;
+		}
+		a.c:active{
+			background-color:black;
+			color:white;
+		}
+		
+		th{
+		font-family: 'Anton', sans-serif;;
+		border-collapse:collapse;
+		padding: 15px;
+		font-size:1.125em;
+		letter-spacing:2px;
+		
+		
+		}
+		td{
+		font-family: 'Roboto Condensed', sans-serif;
+		border-collapse:collapse;
+		padding: 15px;
+		font-size:1.125em;
+		letter-spacing:1px;	
+		color:#17202A  ;
+		
+		
+		}
+
+		body {
+		background-color: #A2D9CE ;
+		margin:0;
+
+		}
+		thead, tfoot tr{
+		background-color:#34495E ;
+		color:white;
+		font-size:1.2em;
+		}
+		input [type=text],textarea,select{
+		padding: 12px 50px;
+		margin: 8px 0;
+		display: inline-block;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		}
+
+		input[type=submit] {
+		width: 60%;
+		background-color:#EBEDEF;
+		color: black;
+		padding: 5px 5px;
+		margin-left: 48px;
+		border: none;
+		border-radius: 4px;
+		cursor: pointer;
+		font-family: verdana;
+		font-size:0.9em;
+		
+		}
+		
+		input[type=submit]:hover {
+		background-color: #B0BEC5 ;
+		color:white;
+		}
+		
+		input[type=reset] {
+		width: 48%;
+		background-color: #EBEDEF;
+		color: black;
+		padding: 5px 5px;
+		margin-left: 20px;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		font-family: verdana;
+		font-size:0.9em;
+		
+		}
+
+		input[type=reset]:hover {
+		background-color: #B0BEC5 ;
+		color:white;
+		}
+
+
+		
+		textarea{
+		resize:none;
+		}
+		
+		.pbg{
+		
+		  background-image: url('POLICARPIO_IMAGES_ITBD/pbg.png');
+		  background-repeat: no-repeat;
+		  background-size: cover;		
+		  color:white;
+		  font-size:40px;
+		  
+		
+		}
+		
+		.tbg{
+		  background-image: url('tbg.png');
+		  background-repeat: no-repeat;
+		  background-size: cover;		
+		  color:white;
+
+		  
+		
+		}	
+			
+	</style>
+</head>
+<body>
+
+	<div class= "header">
+	
+<a  href="../IMAGES/LOGO.png" target="winImage"><img 
+		src="../IMAGES/LOGO.png"  title="Logo" class="Logo">
+	</a>
+	
+   
+		
+		<div style="margin-top:40px; margin-bottom:-50px">
+		<a class="c" href= "../HOMEPAGE2.html"  title="Homepage">Home
+		</a>
+		
+		<a class="c" href= "ABOUTUS.html "title="About the Author">About the Author
+		</a>
+		
+		<a class="c" href="CONTACTUS.html" title="Contact Us">Contact Us
+		</a>
+		
+		<a class="c" href= "ABOUT_THE_SITE.html"  title="About the Site">About the Site
+		</a>
+		
+		<a class="c" href= "../IMAGE_GALLERY.html" title="Photo Gallery">Photo Gallery
+		</a><br><br><br><br><br><br><br>
+		</div>	
+	</div>
+			<br><br><br><br><br><br>
+			<br>
+			
+	<link rel="stylesheet" type="text/css">
+<br><br><br><br><br><br><br><br>
+	<table  style= "padding-top:50px;" >
+		<form method="post" action="greetings.html">
+		<thead style="border-bottom: 1px solid black;">
+			<tr class="pbg">
+				<th colspan="2">Contact Us</th>
+				
+		</thead>
+
+
+		<tbody>
+			<tr>
+				<td><label for="name">Fullname:</label></td>
+				<td><input type="text" name="name" size="30" placeholder="Type your Fullname here" maxlength
+				="50" autofocus required></td>
+				
+			</tr>
+			<tr>
+				<td><label for="address">Address:</label></td>
+				<td><input type="text" name="address" size="30" placeholder="Type your complete Address here" maxlength
+				="50" autofocus required></td>
+				
+			</tr>
+			<tr>
+				<td><label for="number">Contact no:</label></td>
+				<td><input type="text" name="number" size="30" placeholder="Type your Contact number here" maxlength
+				="50" autofocus required></td>
+				
+			</tr>
+			<tr >
+				<td><label for="email">Email Address:</label></td>
+				<td><input type="email" name="email" size="30" placeholder="Type your Email here" maxlength
+				="50" autofocus required ></td>
+				
+			</tr>	
+			<tr style="border-bottom: 1px solid black;">
+				<td><label for="ability">Leave a comment or any <br>
+				suggestions about the site</label></td>
+				<td>
+					<textarea rows="10" cols="30" required ></textarea>
+				</td>
+			</tr>
+	
+		</tbody>
+
+		<tfoot>
+			<tr >
+			
+				<th ><input type="submit" id="btn1" value="Submit Form"></th>
+				<th ><input type="reset" id="btn1" value="Clear Form"></th>
+				
+			</tr>	
+		</tfoot>
+
+	</form>	
+	</table>
+			<br><br><br><br>
+</body>
+</html>		
